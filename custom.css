@@ -1,0 +1,189 @@
+ carousel-item{
+      
+      }
+      .carousel-inner{
+        height:  689px !important;
+        overflow: hidden;
+      }
+      /* -----------------------
+    # Header
+-------------------------*/
+nav{  
+  background:#ffffff; 
+  transition: all 0.5s;
+  z-index: 0;
+  box-shadow: 0px 6px 9px 0px rgba(0, 0, 0, 0.06);
+} 
+nav .navbar-brand{
+  width:100px;
+  transition: all 0.3s;
+}
+nav ul li{
+  font-family:;
+  font-weight: 400;
+  font-size: 18px;
+  padding:0 15px;
+}
+nav .nav-item{
+  color:#eee;
+}
+nav .nav-item:hover
+{
+  color:#fff;
+}
+.navbar-light .navbar-nav .nav-link{
+  z-index:0;
+  color:#555;
+  font-weight: 400;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+  color:#aaa;
+  transition: 0.2s;
+  font-weight: 400;
+}
+nav.navbar.shrink {
+  min-height: 10px;
+  background: #ffffff;
+}
+nav.navbar{
+    Animation
+   -webkit-transition: all 0.5s ease;
+   transition: all 0.5s ease;
+}
+nav.shrink a {
+  padding-top: 3px !important;
+  padding-bottom: 3px !important;
+  font-size: 17px;
+}
+nav .navbar-toggler-icon{
+  font-size:120%;
+  padding:2px;
+}
+nav.shrink .navbar-toggler-icon{
+  font-size:90%;
+  padding:2px;
+}
+
+nav.shrink .navbar-toggle {
+  width:20%;
+    padding: 4px 5px;
+    margin: 8px 15px 8px 0;
+    background: #ffffff;
+}
+
+nav.shrink .navbar-brand {
+  width:6%;
+  padding:0;
+  margin:0;
+}
+
+i{
+	font-size: 22px;
+}
+.search_icon{
+	font-size: 16px;	
+}
+.btn_submit,.btn_close{
+	font-size: 20px;
+}
+.open-button i{
+	font-size: 30px;
+}
+
+/*button*/
+.navbar-light .navbar-toggler{
+  border: none;
+}
+button:focus{
+  outline: none;
+}
+.btn-outline-info{
+  color: #ddd;
+  border-color: #ddd;
+}
+.btn-outline-success:not(:disabled):not(.disabled):active{
+  background: #fff;
+}
+@media only screen and (max-width: 640px){          
+ nav .navbar-brand{
+  width:70px;
+  transition: all 0.3s;
+  }
+}
+.about_us{
+  margin-top: 100px;
+}
+     
+/*//popup*/
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+    transition:all 0.4s;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+    transition:all 0.4s;
+}
